@@ -1,0 +1,282 @@
+// out: estilo.css, compress: false
+@vermelho:red;
+@azul: blue;
+@preto: black;
+@centro: center;
+
+html{
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    margin-bottom: 80px;
+  }
+
+//flex
+  .content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: @centro;
+	align-content: @centro;
+	align-items: @centro;
+}
+
+.item{
+    width: 50%;
+    padding: 1%;
+}
+// fim do flex
+
+  .navbar-example{
+  position: relative
+  }
+  
+  .iconfb{
+    width: 10%;
+    margin-left: 65%;
+  }
+  
+  .iconb{
+    width: 10%;
+  }
+  
+  h1, h2, h3, h4{
+    text-align: @centro;
+  }
+  
+  .textobanner{
+    text-align: @centro;
+  }
+  
+  .textofl{
+    text-align: @centro;
+  }
+  
+  .textosobre{
+    text-align: justify;
+  }
+  
+  .textocontato{
+    text-align: @centro;
+  }
+  
+  .vermais{
+    text-align: @centro;
+    color: @vermelho;
+  }
+  
+  .icones {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .imgc{
+      width: 100%;
+  }
+  
+  .carousel-caption{
+    background-color: rgba(90, 90, 90, 0.5);
+  }
+  
+  .logo{
+  height: 100px;
+  }
+  
+  .logocentro{
+    margin-left: 45%;
+  }
+  
+  .botao{
+    margin-left: 34%;
+  }
+  
+  .telefone{
+    width: 8%;
+    margin-left: 46%;
+  }
+  
+  .bannertudo{
+    background: none;
+  }
+  
+  .duvidas{
+    text-align:@centro;
+  }
+  
+  p{
+    text-align: @centro;
+  }
+  .letram{
+    text-align: @centro;
+    font-size: 60px;
+  }
+  
+  .footer{
+    background-color: #CCC;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: @centro;
+  }
+  
+  .rodape{
+    margin: 1%;
+  }
+  
+   .pesquisar{
+     width: 15%;
+   }
+  
+   a.saiba{
+     text-align: @centro;
+   }
+  
+   a.saiba:link {
+     color: @azul;
+     text-decoration:none;
+     font-style: italic;
+  
+  }
+  
+  a.saiba:hover {
+   color: @preto;
+  }
+  
+  .imgalbum{
+    width: 100%;
+  }
+  
+  .btn-primary {
+      color: #fff;
+      background-color: @azul;
+      border-color: @azul;
+  
+    }
+  
+  .menubaixo{
+    margin-left: 15%;
+  }
+  
+  h4{
+    font-size: 25px;
+    color: @azul;
+  }
+  
+  
+  #sobretexto{
+    text-align: @centro;
+    color: @azul;
+  }
+  
+  .iconesobre{
+    width: 10%;
+    margin-left: 45%;
+  }
+  
+  .textoensino{
+    text-align: justify;
+  }
+  
+  @media (max-width: 767px) {
+    .icones{
+      width: 25%;
+      margin-left: 37%;
+    }
+  
+    .iconesobre{
+      width: 35%;
+      margin-left: 32.5%;
+    }
+  
+    .telefone{
+      width: 22%;
+      margin-left: 39%;
+    }
+  
+    .logo{
+    height: 75px;
+  }
+  
+  .logocentro{
+    margin-left: 35%;
+  }
+  
+  .botao{
+    margin-left: 22%;
+  }
+  
+  .carousel-caption{
+    font-size: 14px;
+  }
+  
+  .titulocarousel{
+    font-size: 22px;
+  }
+  }
+  
+  .meio {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  @media (min-width:440px) and (max-width: 650px) {
+    .pesquisar{
+      width: 10%;
+      margin-left: 45%;
+    }
+  
+    .iconfb{
+      width: 10%;
+      margin-left: 60%;
+    }
+  
+    .iconb{
+      width: 10%;
+    }
+  }
+  
+  @media (min-width:650px) and (max-width: 991px) {
+    .pesquisar{
+      width: 7%;
+      margin-left: 46.5%;
+    }
+  
+    .iconfb{
+      width: 10%;
+      margin-left: 50%;
+    }
+  
+    .iconb{
+      width: 10%;
+    }
+  
+  }
+  
+  @media (max-width: 575px){
+    .pesquisar{
+      margin-left: 42.5%;
+    }
+  }
+  
+  @media (max-width: 321px) {
+    .carousel-caption{
+      font-size: 0px;
+      background-color: rgba(90, 90, 90, 0);
+    }
+  
+    .titulocarousel{
+      font-size: 0px;
+    }
+  
+    .iconfb{
+      width: 18%;
+      margin-left: 32%;
+    }
+  
+    .iconb{
+      width: 18%;
+    }
+  }
+  
